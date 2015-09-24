@@ -2,7 +2,7 @@ var fs = require('fs');
 var express = require('express')
 var app = express()
 //buf = new Buffer(27);
-app.set('port', (process.env.PORT || 5000))
+app.set('port', (process.env.PORT || 8080))
 app.use(express.static(__dirname + '/public'))
 
 
